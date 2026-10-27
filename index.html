@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shrikant Kudale | Portfolio</title>
+  <meta name="description" content="AI & Machine Learning Engineer Portfolio of Shrikant Kudale" />
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --card-hover: #162032;
+      --accent: #2563eb;
+      --accent-glow: rgba(37, 99, 235, 0.35);
+      --text: #f9fafb;
+      --text-muted: #9ca3af;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 1.25rem 4rem;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.75rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3.5rem;
+    }
+
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2.5rem;
+      align-items: center;
+      margin-bottom: 4.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    .hero-content {
+      flex: 1;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #60a5fa;
+      background: rgba(37, 99, 235, 0.15);
+      border: 1px solid rgba(37, 99, 235, 0.3);
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+
+    .hero-content h1 {
+      font-size: 2.75rem;
+      line-height: 1.15;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      letter-spacing: -0.75px;
+    }
+
+    .hero-content p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      max-width: 520px;
+    }
+
+    /* 4:3 Hero Image Container */
+    .hero-image-wrapper {
+      width: 100%;
+      max-width: 340px;
+      aspect-ratio: 4 / 3;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      box-shadow: 0 15px 35px -5px var(--accent-glow);
+      background: var(--card-bg);
+      flex-shrink: 0;
+    }
+
+    .hero-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Action Buttons */
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: var(--accent);
+      color: #ffffff;
+      border: 1px solid var(--accent);
+    }
+
+    .btn-primary:hover {
+      background-color: #1d4ed8;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: #0b0f19;
+      border: 1px solid #25d366;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: #1ebc59;
+    }
+
+    .btn-outline {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--text-muted);
+      background-color: #1f2937;
+    }
+
+    /* Sections */
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin-bottom: 4.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .project-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      border-color: #374151;
+      background: var(--card-hover);
+    }
+
+    /* Uniform 4:3 Project Previews */
+    .project-thumb {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #0f172a;
+    }
+
+    .project-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .project-body {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .project-body h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-body p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+      flex: 1;
+    }
+
+    .project-link {
+      color: #60a5fa;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Navigation -->
+    <header>
+      <a href="#" class="logo">Shrikant<span>.is-a.dev</span></a>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-badge">AI & Software Engineering</span>
+        <h1>Shrikant Kudale</h1>
+        <p>
+          Developing intelligent edge systems, computer vision models, and applied data science pipelines.
+        </p>
+
+        <!-- Redirect Buttons -->
+        <div class="btn-group">
+          <!-- WhatsApp Link -->
+          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Shrikant,%20I%20visited%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            WhatsApp
+          </a>
+
+          <!-- Email Direct Link -->
+          <a href="mailto:your-email@example.com?subject=Portfolio%20Inquiry" class="btn btn-primary">
+            Email Me
+          </a>
+
+          <!-- GitHub Profile -->
+          <a href="https://github.com/Dhrikant-Kudale" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Cloudinary 4:3 Formatted Image -->
+      <div class="hero-image-wrapper">
+        <img 
+          src="https://res.cloudinary.com/zvxvjbtj/image/upload/f_auto,q_auto,ar_4:3,c_fill,g_auto,w_800/1000371902" 
+          alt="Shrikant Kudale" 
+          loading="eager"
+        />
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-thumb">
+            <img 
+              src="https://res.cloudinary.com/zvxvjbtj/image/upload/f_auto,q_auto,ar_4:3,c_fill,g_auto,w_800/1000371902" 
+              alt="Blind Assist Companion" 
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Blind Assist Companion</h3>
+            <p>Edge AI wearable intelligent assistive system providing real-time spatial narration and obstacle detection using YOLOv8.</p>
+            <a href="https://github.com/Dhrikant-Kudale" target="_blank" class="project-link">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-thumb">
+            <img 
+              src="https://res.cloudinary.com/zvxvjbtj/image/upload/f_auto,q_auto,ar_4:3,c_fill,g_auto,w_800/1000371902" 
+              alt="Wafer Defect Classifier" 
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Wafer Defect Classifier</h3>
+            <p>Machine learning inspection application developed for automated semiconductor surface defect classification.</p>
+            <a href="https://github.com/Dhrikant-Kudale" target="_blank" class="project-link">View Project &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <p>&copy; 2026 Shrikant Kudale. Hosted on Vercel at shrikantkudale.is-a.dev</p>
+    </footer>
+  </div>
+
+</body>
+</html>
