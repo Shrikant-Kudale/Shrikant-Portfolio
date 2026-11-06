@@ -1,0 +1,109 @@
+{
+  "hackathons": [
+    {
+      "id": "innovatex-2",
+      "title": "2nd Prize — Innovatex 2.0 Hackathon",
+      "organization": "IEEE EMBS Pune Chapter, MIT-ADT University",
+      "date": "30 Oct 2026",
+      "award": "2nd Prize Winner",
+      "description": "Intercollegiate biomedical & engineering hackathon competing against 45+ universities. Presented wearable sensory augmentation architecture with real-time edge intelligence.",
+      "skills": ["Edge AI", "Sensor Fusion", "Real-Time Systems", "Hardware Pitch"],
+      "image": "",
+      "verifyUrl": ""
+    },
+    {
+      "id": "technova-2026",
+      "title": "National Finalist — TECHNOVA 2026 Grand AI Challenge",
+      "organization": "Thiagarajar School of Management, Madurai",
+      "date": "30 Sep — 01 Oct 2026",
+      "award": "National Finalist",
+      "description": "Selected among top 20 teams nationwide from over 1,200 submissions. Evaluated on algorithmic robustness, societal scalability, and business viability of neural diagnostic systems.",
+      "skills": ["Neural Networks", "Diagnostic AI", "Biomarkers", "Scalability"],
+      "image": "",
+      "verifyUrl": ""
+    },
+    {
+      "id": "sih-2025",
+      "title": "Team Lead — Smart India Hackathon 2025",
+      "organization": "Ministry of Education & AICTE",
+      "date": "Oct 2025",
+      "award": "National Stage Finalist",
+      "description": "Captained team developing 'Smart Student Assist' predictive analytics platform tackling student academic retention across national universities.",
+      "skills": ["Leadership", "Agile Sprints", "XGBoost", "Python"],
+      "image": "",
+      "verifyUrl": ""
+    }
+  ],
+  "copyright": {
+    "title": "AI-Powered Expense Tracker with GUI",
+    "certificateNo": "LD-20250172223",
+    "jurisdiction": "Copyright Office, Government of India",
+    "date": "2025",
+    "mentors": ["Dr. Nilima Kulkarni"],
+    "description": "Registered intellectual property for automated financial transaction parsing, predictive spending regressions, and desktop UI telemetry architecture."
+  },
+  "certifications": [
+    {
+      "id": "cert-ibm-ml",
+      "title": "IBM Machine Learning Professional Certificate",
+      "issuer": "IBM",
+      "date": "2025",
+      "badge": "Professional Certificate",
+      "description": "Comprehensive credential spanning supervised learning, deep learning, unsupervised algorithms, time-series forecasting, and production deployment.",
+      "url": "https://coursera.org"
+    },
+    {
+      "id": "cert-glasgow-ai",
+      "title": "Applied AI for Engineers and Scientists Foundations",
+      "issuer": "University of Glasgow",
+      "date": "2025",
+      "badge": "Foundations",
+      "description": "Engineering foundations in mathematical optimization, neural architectures, and scientific computing.",
+      "url": "https://coursera.org"
+    },
+    {
+      "id": "cert-boulder-tableau",
+      "title": "Data Visualization & Analytics in Tableau",
+      "issuer": "University of Colorado Boulder",
+      "date": "2024",
+      "badge": "Specialization",
+      "description": "Level of Detail (LOD) calculations, dashboard storyboards, predictive trendlines, and executive reporting workflows.",
+      "url": "https://coursera.org"
+    },
+    {
+      "id": "cert-servicenow",
+      "title": "ServiceNow Virtual Internship Credential",
+      "issuer": "AICTE with ServiceNow University",
+      "date": "2024",
+      "badge": "Virtual Internship",
+      "description": "Enterprise cloud workflow architecture, automated incident routing, and business platform integration.",
+      "url": "https://aicte-india.org"
+    }
+  ],
+  "trainings": [
+    {
+      "title": "MoTA CeNSE Semiconductor Training",
+      "institution": "Center for Nano Science and Engineering (CeNSE), IISc Bangalore",
+      "date": "2025",
+      "description": "Hands-on immersion in semiconductor cleanroom fabrication, photolithography, wafer inspection, and micro-electromechanical systems (MEMS)."
+    },
+    {
+      "title": "AI Presymposium Workshop on LLMs, RAG and Deployment",
+      "institution": "MIT School of Computing, MIT-ADT University",
+      "date": "2025",
+      "description": "In-depth training on vector embeddings, retrieval-augmented generation pipelines, LangChain orchestration, and GPU deployment."
+    },
+    {
+      "title": "Tableau Practical Approach Workshop",
+      "institution": "MIT-ADT University",
+      "date": "2024",
+      "description": "Advanced business intelligence dashboarding, parameter actions, and interactive exploratory analytics."
+    },
+    {
+      "title": "Java Programming Intensive Training",
+      "institution": "MIT-ADT University",
+      "date": "2024",
+      "description": "Object-oriented design patterns, multithreaded concurrency, memory management, and robust backend data structures."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "id": "field-1",
+      "title": "Dissertation Viva Voce Defense",
+      "date": "May 2026",
+      "category": "Academic Defense",
+      "caption": "Dissertation day, after the viva voce was defended successfully. The external panel engaged deeply on how cognitive offloading habits in young engineers differ from older demographic baselines.",
+      "image": "",
+      "aspectRatio": "4:3",
+      "location": "IGNOU Academic Center, Pune"
+    },
+    {
+      "id": "field-2",
+      "title": "Field Administration of Spatial Memory Protocol",
+      "date": "Apr 2026",
+      "category": "Experimental Trial",
+      "caption": "Administering the unguided campus wayfinding challenge to undergraduate participants. Observing how quickly participants intuitively reached for phones when orientation vectors turned complex.",
+      "image": "",
+      "aspectRatio": "4:3",
+      "location": "Engineering Quadrangle, Pune"
+    },
+    {
+      "id": "field-3",
+      "title": "Cognitive Failures Survey Debriefing Session",
+      "date": "Mar 2026",
+      "category": "Workshop & Debrief",
+      "caption": "Facilitating an open post-test reflection circle with engineering students on metacognitive awareness, subjective distraction, and working memory hygiene.",
+      "image": "",
+      "aspectRatio": "4:3",
+      "location": "Seminar Hall, Pune"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Cognitive Ergonomics & Mental Offloading in Code Generation",
+      "date": "2026",
+      "audience": "Student Developer Community",
+      "description": "Interactive demonstration on how code autocompletion and conversational AI alter programming problem-solving pathways and spatial code architecture retention."
+    },
+    {
+      "title": "Psychometrics in Human-Centered AI Evaluation",
+      "date": "2025",
+      "audience": "Interdisciplinary Research Group",
+      "description": "Bridging quantitative engineering metrics (F1 score, latency) with human perceptual measures (NASA-TLX cognitive workload, CFQ error rates)."
+    }
+  ]
+}

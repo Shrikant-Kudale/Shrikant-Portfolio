@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-accent-4: var(--accent-4);
+  --color-accent-5: var(--accent-5);
+  --color-thread: var(--thread);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-meta: var(--font-meta);
+}
+
+:root {
+  --img-ratio: 4 / 3;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Default to Rich Obsidian Tech Dark tokens */
+  --canvas: #060911;
+  --surface: #0C1322;
+  --surface-2: #141F36;
+  --border: #1E2E4E;
+  --text: #F1F5F9;
+  --muted: #8FA2BF;
+  --accent: #38BDF8;
+  --accent-2: #818CF8;
+  --accent-3: #2DD4BF;
+  --accent-4: #F59E0B;
+  --accent-5: #38BDF8;
+  --thread: #F59E0B;
+
+  --font-display: 'Space Grotesk', 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-meta: 'JetBrains Mono', monospace;
+}
+
+/* AI & Engineering - Dark (Default for tech) */
+html[data-persona="tech"][data-theme="dark"],
+html[data-persona="tech"]:not([data-theme="light"]) {
+  --canvas: #060911;
+  --surface: #0C1322;
+  --surface-2: #141F36;
+  --border: #1E2E4E;
+  --text: #F1F5F9;
+  --muted: #8FA2BF;
+  --accent: #38BDF8;
+  --accent-2: #818CF8;
+  --accent-3: #2DD4BF;
+  --accent-4: #F59E0B;
+  --accent-5: #38BDF8;
+  --thread: #F59E0B;
+
+  --font-display: 'Space Grotesk', 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-meta: 'JetBrains Mono', monospace;
+}
+
+/* AI & Engineering - Light */
+html[data-persona="tech"][data-theme="light"] {
+  --canvas: #EEF2F8;
+  --surface: #E2E8F2;
+  --surface-2: #D5DDEB;
+  --border: #C5CEDD;
+  --text: #121D31;
+  --muted: #55657F;
+  --accent: #1D4ED8;
+  --accent-2: #0F766E;
+  --accent-3: #1D4ED8;
+  --accent-4: #B7791F;
+  --accent-5: #0F766E;
+  --thread: #B7791F;
+
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-meta: 'JetBrains Mono', monospace;
+}
+
+/* Psychology - Light (Default for psychology) */
+html[data-persona="psychology"][data-theme="light"],
+html[data-persona="psychology"]:not([data-theme="dark"]) {
+  --canvas: #FAF4EC;
+  --surface: #F2E8DB;
+  --surface-2: #EADCCB;
+  --border: #E2D3BF;
+  --text: #2B3440;
+  --muted: #6B7280;
+  --accent: #C86D51;
+  --accent-2: #7A9A7E;
+  --accent-3: #D98C9A;
+  --accent-4: #E0A84B;
+  --accent-5: #5E9AA8;
+  --thread: #E0A84B;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Source Serif 4', serif;
+  --font-meta: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Psychology - Dark */
+html[data-persona="psychology"][data-theme="dark"] {
+  --canvas: #1B1714;
+  --surface: #26201B;
+  --surface-2: #31281F;
+  --border: #3A312A;
+  --text: #F3EAE0;
+  --muted: #B5A99B;
+  --accent: #E08A6D;
+  --accent-2: #9DBBA0;
+  --accent-3: #E5A3AF;
+  --accent-4: #EDBE6A;
+  --accent-5: #86B9C6;
+  --thread: #EDBE6A;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Source Serif 4', serif;
+  --font-meta: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--canvas);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.1vw, 1.125rem);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  transition: background-color 0.4s var(--ease-out), color 0.3s var(--ease-out);
+}
+
+/* Global typography rules */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+  font-weight: 400;
+}
+
+/* Body text is never bold; emphasis uses accent colour */
+p strong, p b {
+  font-weight: 400;
+  color: var(--accent);
+}
+
+/* Editorial selection */
+::selection {
+  background: var(--thread);
+  color: #121D31;
+}
+
+/* Hairline scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Chamfered utility for tech */
+.clip-chamfer {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+.clip-chamfer-lg {
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+}
+
+/* Pebble shape for psychology */
+.shape-pebble {
+  border-radius: 40px 18px 36px 22px;
+}
+
+.shape-pebble-alt {
+  border-radius: 20px 42px 24px 38px;
+}
+
+/* Fluid image aspect ratio */
+.aspect-4-3 {
+  aspect-ratio: 4 / 3;
+}

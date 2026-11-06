@@ -1,0 +1,103 @@
+{
+  "disclaimer": "These activities are for reflection and learning. They are not medical advice, diagnostic tools, or psychological therapy.",
+  "activities": [
+    {
+      "id": "breathing",
+      "title": "Breathing Guide",
+      "tagline": "Rhythmic autonomic regulation via targeted respiratory pacing",
+      "category": "Autonomic Regulation",
+      "accent": "sage",
+      "howToUse": "Select a rhythm pattern (Box 4-4-4-4, 4-7-8 for sleep, or Coherent 5-5 for heart rate variability). Inhale as the circle expands, hold comfortably, and exhale smoothly as it contracts.",
+      "whatItMeasures": "Activates the parasympathetic vagal brake, reducing sympathetic nervous arousal, lowering salivary cortisol, and modulating prefrontal heart-rate variability (HRV).",
+      "relatedConcepts": [
+        { "id": "mindfulness-based-stress-reduction", "name": "Mindfulness-Based Stress Reduction" },
+        { "id": "emotional-intelligence", "name": "Emotional Intelligence" },
+        { "id": "resilience", "name": "Resilience" }
+      ]
+    },
+    {
+      "id": "memory-match",
+      "title": "Memory Match",
+      "tagline": "Visuospatial working memory & dual-encoding challenge",
+      "category": "Cognitive Storage",
+      "accent": "lagoon",
+      "howToUse": "Flip cards two at a time to locate matching abstract symbols. Choose between 6, 12, or 16 card layouts. Try to minimise total turns and latency.",
+      "whatItMeasures": "Tests the visuospatial sketchpad component of Baddeley's working memory model and executive control of attentional shifting without verbal rehearsal cues.",
+      "relatedConcepts": [
+        { "id": "working-memory", "name": "Working Memory" },
+        { "id": "cognitive-offloading", "name": "Cognitive Offloading" },
+        { "id": "spatial-memory", "name": "Spatial Memory" }
+      ]
+    },
+    {
+      "id": "stroop-test",
+      "title": "Stroop Test",
+      "tagline": "Cognitive interference & inhibitory executive control",
+      "category": "Inhibitory Control",
+      "accent": "terracotta",
+      "howToUse": "A color word appears (e.g. 'RED' written in green ink). Click the button matching the physical INK COLOR, completely ignoring the written word. Complete 10 fast rounds.",
+      "whatItMeasures": "Quantifies the 'Stroop Effect' latency delta between congruent and incongruent stimulus processing in the anterior cingulate cortex and dorsolateral prefrontal cortex.",
+      "relatedConcepts": [
+        { "id": "cognitive-dissonance", "name": "Cognitive Dissonance" },
+        { "id": "habit-formation", "name": "Habit Formation" },
+        { "id": "bounded-rationality", "name": "Bounded Rationality" }
+      ]
+    },
+    {
+      "id": "reaction-timer",
+      "title": "Reaction Timer",
+      "tagline": "Simple sensorimotor transmission & vigilance latency",
+      "category": "Psychomotor Latency",
+      "accent": "honey",
+      "howToUse": "Wait patiently while the screen is calm terracotta. The moment it bursts into bright sage, click or tap anywhere as rapidly as possible. Averages your last 5 attempts.",
+      "whatItMeasures": "Captures raw afferent optical sensory transmission through the lateral geniculate nucleus to motor cortex efferent finger depression latency (typical human baseline 190 — 260ms).",
+      "relatedConcepts": [
+        { "id": "flow", "name": "Flow" },
+        { "id": "operant-conditioning", "name": "Operant Conditioning" },
+        { "id": "self-efficacy", "name": "Self-Efficacy" }
+      ]
+    },
+    {
+      "id": "journal",
+      "title": "Gratitude & Thought Journal",
+      "tagline": "Affective reframing & cognitive savoring in private storage",
+      "category": "Reflective Psychology",
+      "accent": "dusty-rose",
+      "howToUse": "Record brief daily observations, micro-victories, or reflections using daily rotating prompts. Entries are stored only in your local browser storage and can be exported as a text file.",
+      "whatItMeasures": "Operationalizes Fredrickson's Broaden-and-Build theory of positive affect by counteracting biological evolutionary negativity bias through conscious gratitude attribution.",
+      "relatedConcepts": [
+        { "id": "gratitude", "name": "Gratitude" },
+        { "id": "savouring", "name": "Savouring" },
+        { "id": "reframing", "name": "Reframing" }
+      ]
+    },
+    {
+      "id": "illusions",
+      "title": "Visual Illusion Gallery",
+      "tagline": "Perceptual hypothesis testing & top-down visual priors",
+      "category": "Perceptual Psychology",
+      "accent": "lagoon",
+      "howToUse": "Explore classical visual illusions: Müller-Lyer, Ebbinghaus circles, Kanizsa illusory contours, and the Ponzo perspective track. Toggle 'Reveal guides' to verify optical parity.",
+      "whatItMeasures": "Demonstrates Helmholtz's unconscious inference: the visual cortex projects top-down depth and perspective priors onto 2D retina projections rather than faithfully relaying raw photons.",
+      "relatedConcepts": [
+        { "id": "cognitive-map", "name": "Cognitive Map" },
+        { "id": "framing-effect", "name": "Framing Effect" },
+        { "id": "anchoring", "name": "Anchoring" }
+      ]
+    },
+    {
+      "id": "mood",
+      "title": "Mood Reflection (Affect Labelling)",
+      "tagline": "Linguistic categorization of current emotional states",
+      "category": "Affective Science",
+      "accent": "terracotta",
+      "howToUse": "Select the descriptor that closest describes your current feeling state from eight curated emotional axes. Receive an immediate psychological reflection prompt without any diagnostic scoring.",
+      "whatItMeasures": "Draws on Matthew Lieberman's neuroimaging research showing that affect labelling (putting feelings into words) dampens amygdala activation via the right ventrolateral prefrontal cortex.",
+      "relatedConcepts": [
+        { "id": "emotional-intelligence", "name": "Emotional Intelligence" },
+        { "id": "self-actualization", "name": "Self-Actualization" },
+        { "id": "unconditional-positive-regard", "name": "Unconditional Positive Regard" }
+      ]
+    }
+  ]
+}

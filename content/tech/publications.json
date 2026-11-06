@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ijarsct-2026",
+    "title": "Neuro-Cognitive AI Fingerprinting for Pre-Radiographic Brain Tumor Detection Using Transformer-Based Phase-Amplitude Coupling Analysis",
+    "journal": "International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)",
+    "volume": "Vol. 6, Issue 17",
+    "date": "27 Apr 2026",
+    "authors": ["Shrikant Subhash Kudale", "Co-author 1", "Co-author 2", "Co-author 3"],
+    "mentor": "Dr. Jayashree Prasad",
+    "institution": "MIT School of Computing, MIT-ADT University",
+    "abstract": "Early identification of intracranial space-occupying lesions remains critical to clinical prognosis. This paper presents an experimental biomarker pipeline evaluating Phase-Amplitude Coupling (PAC) across theta-gamma frequency bands coupled with non-invasive gait, speech, and ocular latency metrics. Evaluated against synthetic EEG traces and physiological benchmarks, the proposed self-attention Transformer framework achieved 87.4% preclinical anomaly detection accuracy.",
+    "doi": "10.48175/IJARSCT-V6-I17-2026",
+    "paperUrl": "",
+    "certificateUrl": "",
+    "bibtex": "@article{kudale2026neuro,\n  title={Neuro-Cognitive AI Fingerprinting for Pre-Radiographic Brain Tumor Detection Using Transformer-Based Phase-Amplitude Coupling Analysis},\n  author={Kudale, Shrikant Subhash and others},\n  journal={International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)},\n  volume={6},\n  number={17},\n  year={2026},\n  publisher={IJARSCT}\n}"
+  }
+]

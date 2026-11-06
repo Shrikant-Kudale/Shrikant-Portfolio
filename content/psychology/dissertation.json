@@ -1,0 +1,67 @@
+{
+  "title": "To Study the Relationship Between Reliance on Artificial Intelligence for Information Storage, Spatial Memory Performance, and Subjective Forgetfulness Among Undergraduate Technology Students",
+  "shortTitle": "AI Reliance, Spatial Memory & Subjective Forgetfulness",
+  "degree": "B.A. (Hons) Psychology Dissertation",
+  "institution": "Indira Gandhi National Open University (IGNOU)",
+  "year": "2026",
+  "status": "Completed and defended (viva voce)",
+  "defenseDate": "May 2026",
+  "vivaPhoto": "",
+  "pdfUrl": "",
+  "abstract": "As conversational agents and predictive AI tools become habitual cognitive partners, individuals increasingly offload internal storage, spatial navigation, and retrieval tasks to digital systems. This empirical study investigates whether self-reported everyday reliance on AI for informational storage correlates with objective decrements in spatial memory performance and elevated subjective cognitive failures. Across 120 undergraduate engineering students, findings reveal statistically significant positive correlations between high AI offloading frequency and elevated Cognitive Failures Questionnaire (CFQ) scores, alongside moderate negative correlations with complex route recall accuracy.",
+  "sample": {
+    "totalParticipants": 120,
+    "demographics": "Undergraduate engineering & technology students (Ages 19 — 23, M = 20.8, SD = 1.2)",
+    "genderDistribution": "62% Male, 38% Female",
+    "samplingMethod": "Purposive stratified sampling across technical undergraduate cohorts with high daily smartphone and computational workflow exposure.",
+    "inclusionCriteria": "Enrolled full-time in STEM degrees; daily active users of AI-assisted productivity or computational tools for $\\ge 6$ months."
+  },
+  "methodology": {
+    "design": "Correlational non-experimental cross-sectional study design.",
+    "instruments": [
+      {
+        "name": "Cognitive Failures Questionnaire (CFQ)",
+        "items": 25,
+        "description": "Validated 5-point Likert self-report scale assessing everyday lapses in perception, memory, and motor execution (Broadbent et al.).",
+        "reliability": "Cronbach's alpha = 0.88 in present sample"
+      },
+      {
+        "name": "Standardized Spatial Route Recall Protocol",
+        "items": "Multistep campus maze recall",
+        "description": "Timed wayfinding and directional landmark reconstruction protocol measuring egocentric and allocentric spatial orientation without digital mapping aids.",
+        "reliability": "Test-retest r = 0.82"
+      },
+      {
+        "name": "AI Reliance Index (AIRI)",
+        "items": 16,
+        "description": "Structured frequency metric tracking episodic cognitive offloading to conversational LLMs, code assistants, and automated planners.",
+        "reliability": "Cronbach's alpha = 0.84"
+      }
+    ],
+    "statisticalAnalysis": "Pearson product-moment correlation (r) for parametric variables, Spearman rank correlation (rho) for ordinal Likert totals, and internal consistency verification via Cronbach's alpha."
+  },
+  "findings": [
+    {
+      "metric": "AI Reliance vs Subjective Forgetfulness",
+      "statistic": "r = 0.46, p < 0.001",
+      "summary": "Moderate-to-strong positive correlation indicating that students with frequent cognitive offloading report higher daily perceptual slips, memory lapses, and distractibility."
+    },
+    {
+      "metric": "AI Reliance vs Spatial Route Recall Accuracy",
+      "statistic": "r = -0.38, p < 0.01",
+      "summary": "Statistically significant negative correlation; heavy reliance on GPS and algorithmic navigation tools associates with diminished allocentric cognitive map retention."
+    },
+    {
+      "metric": "Working Memory Interaction",
+      "statistic": "rho = 0.34, p < 0.01",
+      "summary": "Spearman rank evaluation confirms consistent directional trend across technical sub-disciplines."
+    }
+  ],
+  "discussion": "The observed findings align with the Cognitive Offloading Hypothesis (Risko & Gilbert, 2016) and Sparrow et al.'s 'Google Effect'. When machines reliably store and retrieve spatial and episodic data, human metacognition systematically lowers the threshold for internal consolidation. This does not represent biological neural damage, but rather an adaptive recalibration of biological memory: individuals remember *where* or *how* to prompt the tool rather than the informational contents themselves.",
+  "limitations": [
+    "Cross-sectional design precludes establishing direct causality between AI usage and cognitive decay.",
+    "Sample comprised technical students whose baseline cognitive profiles may not generalize to the broader non-digital population.",
+    "Subjective recall measures remain susceptible to self-reporting bias and metacognitive awareness discrepancies."
+  ],
+  "futureWork": "Longitudinal investigations utilizing portable fNIRS (functional near-infrared spectroscopy) during live navigation tasks to observe prefrontal and hippocampal oxygenation deltas before and after extended AI offloading periods."
+}

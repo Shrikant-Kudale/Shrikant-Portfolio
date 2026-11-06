@@ -1,0 +1,219 @@
+{
+  "name": "Shrikant Subhash Kudale",
+  "location": "Pune, Maharashtra, India",
+  "phone": "+91-9579904969",
+  "email": "shrikant.kudale05@gmail.com",
+  "github": "https://github.com/Shrikant-Kudale",
+  "linkedin": "https://linkedin.com/in/shrikant-kudale",
+  "whatsapp": "https://wa.me/919579904969",
+  "leetcode": "https://leetcode.com/u/Shrikant_Kudale/",
+  "resumePdf": "/assets/Shrikant_Kudale_Resume.pdf",
+  "psychCvUrl": "/assets/Shrikant_Kudale_Psychology_CV.pdf",
+  "titles": {
+    "tech": [
+      "AI Engineer",
+      "Data Analyst",
+      "Data Science Enthusiast",
+      "Edge AI Developer"
+    ],
+    "psychology": [
+      "Psychology Graduate",
+      "Cognitive Researcher",
+      "Behavioural Science Explorer"
+    ]
+  },
+  "summary": {
+    "tech": "AI Engineer Intern at CRIEYA, MIT-ADT University (AI & Edge Computing) and final-year B.Tech in AI & Analytics (CGPA 8.25). Currently engineering the edge AI Blind Assist Companion on Raspberry Pi Zero 2 W with YOLOv8 and ToF sensors. Author of an 87.4% accuracy Transformer architecture published in IJARSCT, with hands-on mastery in PyTorch, computer vision (U-Net, Mask R-CNN), Docker MLOps, SQL, and enterprise analytics (Tableau, Power BI). Proven Smart India Hackathon team lead ready for Data Science & AI engineering roles.",
+    "psychology": "B.A. (Hons) Psychology graduate (70% First Class, IGNOU) exploring how human memory, spatial wayfinding, and cognitive offloading interact with intelligent computing. Dissertation investigated reliance on artificial intelligence and subjective forgetfulness across 120 engineering undergraduates using psychometric instruments and experimental route recall protocols."
+  },
+  "metrics": {
+    "modelAccuracy": "87.4%",
+    "papersPublished": "1",
+    "copyrightsRegistered": "1",
+    "hackathonHonors": "2",
+    "cgpa": "8.25"
+  },
+  "footerClosing": {
+    "tech": "Built to be understood.",
+    "psychology": "Made to be remembered."
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science & Engineering (AI and Analytics)",
+      "institution": "MIT School of Computing, MIT-ADT University",
+      "duration": "2023 — 2027",
+      "score": "CGPA 8.25 / 10",
+      "badge": "Final Year",
+      "highlights": "Core specialisation in Artificial Intelligence, Neural Architectures, Edge Computing, and Data Analytics. Team lead for hackathons and academic capstone research."
+    },
+    {
+      "degree": "B.A. (Hons) in Psychology",
+      "institution": "Indira Gandhi National Open University (IGNOU)",
+      "duration": "2023 — 2026",
+      "score": "70% (First Class)",
+      "badge": "Completed & Defended",
+      "highlights": "Specialisation in Cognitive Psychology, Biopsychology, Psychometrics, and Research Methodology. Dissertation defended with distinction via viva voce."
+    },
+    {
+      "degree": "Higher Secondary Certificate (12th MSBSHSE)",
+      "institution": "Sadhana Vidyalaya & R.R. Shinde Junior College, Pune",
+      "duration": "2023",
+      "score": "67.33%",
+      "badge": "Science Stream",
+      "highlights": "Physics, Chemistry, Mathematics, and Computer Science."
+    },
+    {
+      "degree": "Secondary School Certificate (10th MSBSHSE)",
+      "institution": "Little Flower's English Medium School, Bhekrainagar, Pune",
+      "duration": "2021",
+      "score": "94.40%",
+      "badge": "Distinction",
+      "highlights": "Top percentile in Science and Mathematics."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "skills": [
+        { "name": "Python", "level": "core" },
+        { "name": "Java (OOP)", "level": "core" },
+        { "name": "C++", "level": "familiar" },
+        { "name": "C", "level": "familiar" },
+        { "name": "SQL", "level": "core" },
+        { "name": "Data Structures & Algorithms", "level": "core" },
+        { "name": "Multithreading", "level": "familiar" }
+      ]
+    },
+    {
+      "category": "Data and Databases",
+      "skills": [
+        { "name": "SQL", "level": "core" },
+        { "name": "MySQL", "level": "core" },
+        { "name": "SQLite3", "level": "core" },
+        { "name": "JDBC", "level": "familiar" },
+        { "name": "Data Modeling", "level": "core" },
+        { "name": "ETL & Data Pipelines", "level": "core" },
+        { "name": "Pandas", "level": "core" },
+        { "name": "NumPy", "level": "core" },
+        { "name": "SciPy", "level": "core" },
+        { "name": "EDA", "level": "core" },
+        { "name": "Data Cleaning", "level": "core" }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "skills": [
+        { "name": "Supervised Learning", "level": "core" },
+        { "name": "Unsupervised Learning", "level": "core" },
+        { "name": "Regression", "level": "core" },
+        { "name": "Classification", "level": "core" },
+        { "name": "Clustering", "level": "core" },
+        { "name": "Random Forest", "level": "core" },
+        { "name": "XGBoost", "level": "core" },
+        { "name": "Feature Engineering", "level": "core" },
+        { "name": "Model Evaluation & Tuning", "level": "core" },
+        { "name": "scikit-learn", "level": "core" }
+      ]
+    },
+    {
+      "category": "Deep Learning",
+      "skills": [
+        { "name": "CNNs", "level": "core" },
+        { "name": "Transformers", "level": "core" },
+        { "name": "PyTorch", "level": "core" },
+        { "name": "TensorFlow", "level": "core" }
+      ]
+    },
+    {
+      "category": "GenAI and NLP",
+      "skills": [
+        { "name": "LLMs", "level": "core" },
+        { "name": "RAG", "level": "core" },
+        { "name": "PEFT / LoRA / QLoRA", "level": "familiar" },
+        { "name": "Generative AI", "level": "core" },
+        { "name": "NLTK", "level": "core" },
+        { "name": "spaCy", "level": "core" },
+        { "name": "LangChain", "level": "core" },
+        { "name": "LangGraph", "level": "core" },
+        { "name": "Gemini Function Calling", "level": "core" }
+      ]
+    },
+    {
+      "category": "Computer Vision",
+      "skills": [
+        { "name": "OpenCV", "level": "core" },
+        { "name": "YOLOv8", "level": "core" },
+        { "name": "U-Net", "level": "core" },
+        { "name": "Mask R-CNN", "level": "core" },
+        { "name": "Image Captioning", "level": "core" },
+        { "name": "Semantic Segmentation", "level": "core" }
+      ]
+    },
+    {
+      "category": "Visualization and BI",
+      "skills": [
+        { "name": "Tableau (LOD, Forecasting)", "level": "core" },
+        { "name": "Power BI", "level": "core" },
+        { "name": "Advanced Excel", "level": "core" },
+        { "name": "Matplotlib", "level": "core" },
+        { "name": "Seaborn", "level": "core" },
+        { "name": "Plotly", "level": "core" }
+      ]
+    },
+    {
+      "category": "Edge and Hardware",
+      "skills": [
+        { "name": "Raspberry Pi Zero 2 W", "level": "core" },
+        { "name": "Embedded Vision", "level": "core" },
+        { "name": "Edge AI Deployment", "level": "core" },
+        { "name": "ToF Sensors (Time-of-Flight)", "level": "core" }
+      ]
+    },
+    {
+      "category": "MLOps and Cloud",
+      "skills": [
+        { "name": "Docker", "level": "core" },
+        { "name": "MLOps", "level": "core" },
+        { "name": "Flask REST APIs", "level": "core" },
+        { "name": "Streamlit", "level": "core" },
+        { "name": "Jupyter", "level": "core" },
+        { "name": "Git & GitHub", "level": "core" },
+        { "name": "AWS (Basics)", "level": "familiar" }
+      ]
+    },
+    {
+      "category": "Engineering Practices",
+      "skills": [
+        { "name": "SDLC", "level": "core" },
+        { "name": "Agile / Scrum", "level": "core" },
+        { "name": "PyTest", "level": "core" },
+        { "name": "Test Automation", "level": "familiar" },
+        { "name": "Postman API Testing", "level": "core" },
+        { "name": "Debugging", "level": "core" },
+        { "name": "Technical Documentation", "level": "core" },
+        { "name": "Jira", "level": "core" }
+      ]
+    },
+    {
+      "category": "Statistics",
+      "skills": [
+        { "name": "Statistical Modeling", "level": "core" },
+        { "name": "Hypothesis Testing", "level": "core" },
+        { "name": "A/B Testing", "level": "core" },
+        { "name": "Time Series & Forecasting", "level": "core" }
+      ]
+    },
+    {
+      "category": "Business and Collaboration",
+      "skills": [
+        { "name": "Business Problem Solving", "level": "core" },
+        { "name": "Agile Workflows", "level": "core" },
+        { "name": "Stakeholder Communication", "level": "core" },
+        { "name": "Project Ownership", "level": "core" },
+        { "name": "Timeline Management", "level": "core" },
+        { "name": "Team Leadership", "level": "core" },
+        { "name": "Critical Thinking", "level": "core" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "crieya-intern",
+    "role": "AI Engineer Intern",
+    "organization": "CRIEYA, MIT-ADT University (AI & Edge Computing)",
+    "period": "04 May 2026 — Present",
+    "current": true,
+    "location": "Pune, India",
+    "summary": "Engineering the 'Blind People Alert Management System' — a low-latency edge AI assistive platform combining quantised computer vision with multisensory hardware.",
+    "bullets": [
+      "Engineered real-time obstacle detection pipeline using quantised YOLOv8 models optimized for low-power Raspberry Pi Zero 2 W microcomputers.",
+      "Integrated Time-of-Flight (ToF) distance sensors with camera streams to establish directional proximity zoning with sub-120ms total latency.",
+      "Containerized microservices using Docker and developed Python / Flask REST endpoints for telemetry logging, calibration, and peripheral diagnostics."
+    ],
+    "skills": ["YOLOv8", "Raspberry Pi Zero 2 W", "Embedded Vision", "Docker", "Flask REST API", "ToF Sensors", "Python"]
+  },
+  {
+    "id": "zidio-intern",
+    "role": "Data Science Intern",
+    "organization": "Zidio Development",
+    "period": "Jun 2025 — Aug 2025",
+    "current": false,
+    "location": "Remote",
+    "summary": "Owned an end-to-end vision-language pipeline marrying semantic segmentation masks with natural language image captioning.",
+    "bullets": [
+      "Trained and evaluated deep neural networks using U-Net and Mask R-CNN across MS COCO and Pascal VOC benchmark datasets.",
+      "Engineered spatial feature extraction embeddings and connected them to Transformer decoder heads for descriptive scene captioning.",
+      "Documented ablation studies comparing IoU improvements against inference latency across varied backbone feature extractors."
+    ],
+    "skills": ["U-Net", "Mask R-CNN", "MS COCO", "Pascal VOC", "PyTorch", "Computer Vision", "Python"]
+  },
+  {
+    "id": "codsoft-intern",
+    "role": "AI Intern",
+    "organization": "CodSoft",
+    "period": "01 Jun 2025 — 30 Jun 2025",
+    "current": false,
+    "location": "Remote",
+    "summary": "Built five core AI systems spanning game trees, NLP, recommender models, and facial vision.",
+    "bullets": [
+      "Implemented Minimax algorithm with Alpha-Beta pruning for an unbeatable Tic-Tac-Toe agent with heuristic search optimization.",
+      "Developed context-aware conversational chatbot using NLTK and pattern-based rule systems for student query triage.",
+      "Built movie recommendation engine using collaborative filtering and cosine similarity matrices on scikit-learn."
+    ],
+    "skills": ["Minimax Algorithm", "OpenCV", "scikit-learn", "NLTK", "Python"]
+  },
+  {
+    "id": "sih-lead",
+    "role": "Team Lead — Smart India Hackathon 2025",
+    "organization": "Ministry of Education Innovation Cell, Govt. of India",
+    "period": "Aug 2025 — Oct 2025",
+    "current": false,
+    "location": "National Level",
+    "summary": "Led 6-member engineering squad to develop 'Smart Student Assist' predictive analytics platform under tight sprint deadlines.",
+    "bullets": [
+      "Translated complex educational administrative requirements into rigorous software architecture and data pipelines.",
+      "Managed Git branch reviews, sprint backlogs, and agile deliverable milestones, securing top evaluation honors.",
+      "Presented working technical demonstrations and ROI impact matrices directly to government jury panellists."
+    ],
+    "skills": ["Agile / Scrum", "Team Leadership", "System Architecture", "XGBoost", "Streamlit", "Stakeholder Communication"]
+  }
+]

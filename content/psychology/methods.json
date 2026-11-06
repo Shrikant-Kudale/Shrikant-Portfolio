@@ -1,0 +1,84 @@
+{
+  "instruments": [
+    {
+      "id": "cfq",
+      "title": "Cognitive Failures Questionnaire (CFQ)",
+      "developer": "Broadbent, Cooper, FitzGerald & Parkes (1982)",
+      "format": "25 items, 5-point Likert Scale (0 = Never, 4 = Very Often)",
+      "construct": "Measures self-reported lapses in perception, memory, and motor control in routine environments.",
+      "sampleItems": [
+        "Do you fail to notice signposts on the road?",
+        "Do you find you forget what you came to the shop to buy?",
+        "Do you read something and find you haven't been thinking about it and have to read it again?",
+        "Do you find you forget people's names shortly after introduction?"
+      ],
+      "scoring": "Cumulative score 0 — 100; higher values indicate elevated frequency of everyday cognitive lapses.",
+      "reliability": "Cronbach's alpha = 0.88"
+    },
+    {
+      "id": "spatial-recall",
+      "title": "Spatial Route Recall & Wayfinding Protocol",
+      "developer": "Standardized Laboratory Protocol adapted for Campus Wayfinding",
+      "format": "Two-phase spatial memory challenge (Exploration phase followed by blinded landmark reconstruction)",
+      "construct": "Assesses allocentric mental map construction and direction-distance vector retention without turn-by-turn guidance aids.",
+      "sampleItems": [
+        "Reconstruct sequential landmark topological layout from memory.",
+        "Estimate angular heading back to starting origin from terminal vertex.",
+        "Draw unguided schematic route corridor with proportional distance ratios."
+      ],
+      "scoring": "Bidimensional regression accuracy score (0.0 — 1.0) and directional error margin in degrees.",
+      "reliability": "Test-retest correlation r = 0.82"
+    },
+    {
+      "id": "correlation-analysis",
+      "title": "Pearson & Spearman Statistical Association",
+      "developer": "Karl Pearson (1896) / Charles Spearman (1904)",
+      "format": "Bivariate linear regression and monotonic rank coefficient testing",
+      "construct": "Quantifies linear and rank-order association strength between machine reliance metrics and cognitive failure distributions.",
+      "scatterplotData": [
+        { "x": 18, "y": 24 },
+        { "x": 25, "y": 32 },
+        { "x": 30, "y": 38 },
+        { "x": 35, "y": 41 },
+        { "x": 42, "y": 49 },
+        { "x": 48, "y": 55 },
+        { "x": 52, "y": 58 },
+        { "x": 58, "y": 66 },
+        { "x": 64, "y": 70 },
+        { "x": 72, "y": 79 },
+        { "x": 80, "y": 84 },
+        { "x": 86, "y": 88 }
+      ],
+      "currentR": 0.46,
+      "pVal": "< 0.001"
+    },
+    {
+      "id": "ethics-protocol",
+      "title": "Human Subject Ethics & Data Governance Protocol",
+      "developer": "Institutional Human Research Ethics Compliance",
+      "format": "Three-stage ethical verification (Informed Consent, Anonymisation, Debriefing)",
+      "construct": "Ensures voluntary participation, zero deception harm, right of immediate withdrawal, and anonymised ID coding.",
+      "stages": [
+        {
+          "stage": "1. Informed Consent",
+          "description": "Full disclosure of study objectives, survey duration (~25 min), zero penalty for non-completion, and written voluntary agreement."
+        },
+        {
+          "stage": "2. Double-Blind Anonymisation",
+          "description": "All survey responses and spatial metrics linked solely to randomized alphanumeric GUIDs with no PII retention."
+        },
+        {
+          "stage": "3. Metacognitive Debriefing",
+          "description": "Educational summary provided to every participant explaining the nature of cognitive offloading and strategies for balanced digital tool reliance."
+        }
+      ]
+    }
+  ],
+  "tools": [
+    { "name": "IBM SPSS Statistics", "role": "Bivariate correlation, ANOVA, reliability scaling" },
+    { "name": "Cronbach's Alpha", "role": "Internal consistency & psychometric scale validation" },
+    { "name": "Pearson & Spearman Correlation", "role": "Parametric & non-parametric statistical hypothesis testing" },
+    { "name": "Thematic Coding", "role": "Qualitative categorization of cognitive offloading habits" },
+    { "name": "Structured Observation", "role": "Standardized spatial wayfinding error logging" }
+  ]
+}

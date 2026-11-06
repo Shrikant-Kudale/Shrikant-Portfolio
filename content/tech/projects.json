@@ -1,0 +1,280 @@
+[
+  {
+    "id": "neuro-ai",
+    "slug": "neuro-cognitive-ai-fingerprinting",
+    "title": "Neuro-Cognitive AI Fingerprinting for Pre-Radiographic Brain Tumor Detection",
+    "category": "NLP and Deep Learning / Research",
+    "summary": "A multimodal biomarker Transformer framework that correlates Phase-Amplitude Coupling (PAC) with ocular, gait, and vocal signals to detect preclinical neural deviations.",
+    "problem": "Brain tumors often progress unnoticed until structural mass effect manifests on MRI/CT scans. Early-stage synaptic dysregulation leaves micro-functional traces in EEG neural oscillation coupling and motor patterns that standard diagnostic workflows miss.",
+    "impact": "Achieved 87.4% classification accuracy across synthetic EEG and multimodal physiological traces; published in IJARSCT (Vol. 6, Issue 17). Demonstrated viability of non-invasive pre-radiographic risk screening.",
+    "stack": ["PyTorch", "Transformers", "Signal Processing", "PAC Analysis", "SciPy", "Python"],
+    "date": "Feb — Apr 2026",
+    "featured": true,
+    "order": 1,
+    "hidden": false,
+    "image": "",
+    "icon": "brain",
+    "humanSide": {
+      "conceptId": "working-memory",
+      "conceptName": "Working Memory & Neural Coupling",
+      "route": "/psychology/concepts"
+    },
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale/Neuro-AI",
+      "paper": "https://ijarsct.co.in",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Synthetic EEG & Sensor Feed", "sub": "Raw time-series" },
+        { "id": "2", "label": "Phase-Amplitude Coupling", "sub": "Theta-gamma PAC" },
+        { "id": "3", "label": "Multimodal Biomarker Fusion", "sub": "Gait + Speech + Eye" },
+        { "id": "4", "label": "Self-Attention Transformer", "sub": "Temporal correlation" },
+        { "id": "5", "label": "Risk Classification", "sub": "Preclinical anomaly" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" },
+        { "from": "4", "to": "5" }
+      ]
+    }
+  },
+  {
+    "id": "blind-assist",
+    "slug": "blind-assist-companion",
+    "title": "Blind Assist Companion (CRIEYA Edge AI)",
+    "category": "Computer Vision and Edge AI",
+    "summary": "Wearable assistive navigation device pairing quantised YOLOv8 inference with Time-of-Flight depth sensors on a Raspberry Pi Zero 2 W with Flask REST microservices.",
+    "problem": "Visually impaired pedestrians face severe spatial disorientation and obstacle collisions in unstructured, dynamic outdoor environments where cloud latency and heavyweight vision systems are unworkable.",
+    "impact": "Engineered real-time edge obstacle avoidance pipeline operating at 14+ FPS locally on edge hardware with 120ms latency ceiling and dual auditory/haptic directional cues.",
+    "stack": ["YOLOv8", "Raspberry Pi Zero 2 W", "OpenCV", "Flask REST API", "Docker", "ToF Sensors", "Python"],
+    "date": "May 2026 — Present",
+    "featured": true,
+    "order": 2,
+    "hidden": false,
+    "image": "",
+    "icon": "vision",
+    "humanSide": {
+      "conceptId": "spatial-memory",
+      "conceptName": "Spatial Memory & Wayfinding Offloading",
+      "route": "/psychology/dissertation"
+    },
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": "",
+      "video": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Camera & ToF Depth", "sub": "Hardware optical input" },
+        { "id": "2", "label": "Pi Zero 2 W Preprocessing", "sub": "RGB normalization" },
+        { "id": "3", "label": "Quantised YOLOv8", "sub": "TensorRT / NCNN edge engine" },
+        { "id": "4", "label": "Sensor Fusion & Distance", "sub": "Proximity arbitration" },
+        { "id": "5", "label": "Alert Engine & Audio", "sub": "Spatial haptic guidance" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" },
+        { "from": "4", "to": "5" }
+      ]
+    }
+  },
+  {
+    "id": "multi-agent-hospital",
+    "slug": "multi-agent-hospital-appointment-system",
+    "title": "Multi-Agent Hospital Appointment Booking System",
+    "category": "NLP and LLMs",
+    "summary": "Stateful agentic healthcare triage system built with LangGraph, LangChain, and Gemini function calling across patient intake, doctor scheduling, and slot confirmation.",
+    "problem": "Manual hospital scheduling creates patient drop-offs, scheduling conflicts, and physician overload due to rigid intake forms and uncoordinated triage.",
+    "impact": "Decoupled conversational scheduling into three autonomous cooperating agents with structured state management and deterministic calendar slot booking.",
+    "stack": ["Python", "LangGraph", "LangChain", "Gemini Function Calling", "FastAPI"],
+    "date": "Jan — Mar 2026",
+    "featured": false,
+    "order": 3,
+    "hidden": false,
+    "image": "",
+    "icon": "bot",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Patient Conversation", "sub": "Natural query intake" },
+        { "id": "2", "label": "Triage Agent", "sub": "Symptom extraction" },
+        { "id": "3", "label": "Doctor & Slot Lookup", "sub": "Tool calling / DB query" },
+        { "id": "4", "label": "Confirmation Agent", "sub": "State validation" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" }
+      ]
+    }
+  },
+  {
+    "id": "expense-tracker",
+    "slug": "ai-powered-expense-tracker-gui",
+    "title": "AI-Powered Expense Tracker with GUI",
+    "category": "Data Analytics",
+    "summary": "Desktop financial forecasting and categorisation suite powered by RandomForestRegressor, SQLite3, and Tkinter analytics visualisations.",
+    "problem": "Personal budgeting tools either require tedious manual tagging or lack predictive forecasting of end-of-month cashflow risk.",
+    "impact": "Awarded registered Government Copyright (Certificate No. LD-20250172223). Automated spending forecasting with 91.2% regression correlation.",
+    "stack": ["Python", "Tkinter", "RandomForestRegressor", "SQLite3", "Matplotlib"],
+    "date": "Feb — Apr 2025",
+    "featured": false,
+    "order": 4,
+    "hidden": false,
+    "image": "",
+    "icon": "chart",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Transaction Input", "sub": "GUI ledger & CSV" },
+        { "id": "2", "label": "SQLite3 Database", "sub": "Structured ledger" },
+        { "id": "3", "label": "Random Forest Predictor", "sub": "Time-series spending trend" },
+        { "id": "4", "label": "Visual Dashboard", "sub": "Category breakdown" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" }
+      ]
+    }
+  },
+  {
+    "id": "image-captioning-segmentation",
+    "slug": "image-captioning-and-semantic-segmentation",
+    "title": "Image Captioning and Semantic Segmentation Pipeline",
+    "category": "Computer Vision",
+    "summary": "Dual vision-language pipeline integrating U-Net semantic segmentation masks and Mask R-CNN instance boundaries with Transformer caption generation on MS COCO.",
+    "problem": "Vision models often decouple pixel-level segmentation from natural language narration, requiring disparate architectures and manual synchronization.",
+    "impact": "Delivered working vision-language system achieving robust mIoU across 20 Pascal VOC classes and BLEU-4 score of 34.2 on MS COCO test splits.",
+    "stack": ["PyTorch", "U-Net", "Mask R-CNN", "MS COCO", "Pascal VOC", "OpenCV"],
+    "date": "Jun — Aug 2025",
+    "featured": false,
+    "order": 5,
+    "hidden": false,
+    "image": "",
+    "icon": "layers",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Input Image Stream", "sub": "High-res benchmark frames" },
+        { "id": "2", "label": "U-Net & Mask R-CNN", "sub": "Pixel-wise feature masks" },
+        { "id": "3", "label": "Spatial Attention Pooling", "sub": "Salient object encoding" },
+        { "id": "4", "label": "Caption Decoder", "sub": "Cohesive linguistic narrative" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" }
+      ]
+    }
+  },
+  {
+    "id": "smart-student-assist",
+    "slug": "smart-student-assist-sih-2025",
+    "title": "Smart Student Assist (Smart India Hackathon 2025)",
+    "category": "Data Analytics",
+    "summary": "National hackathon team lead solution providing predictive student retention scoring, curriculum difficulty forecasting, and intelligent study companion tooling.",
+    "problem": "Educational institutions struggle to identify at-risk students before mid-term dropout inflection points, relying on lagging exam grades.",
+    "impact": "Led team of 6 engineers to top ranking at SIH 2025; integrated real-time student engagement analytics with automated intervention alerts.",
+    "stack": ["Python", "XGBoost", "Streamlit", "PostgreSQL", "Pandas", "Scrum / Agile"],
+    "date": "Aug — Oct 2025",
+    "featured": false,
+    "order": 6,
+    "hidden": false,
+    "image": "",
+    "icon": "award",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "LMS Engagement Logs", "sub": "Daily student activity" },
+        { "id": "2", "label": "Feature Transformation", "sub": "Lagged attendance & quiz delta" },
+        { "id": "3", "label": "XGBoost Retention Risk", "sub": "Ensemble classifier" },
+        { "id": "4", "label": "Advisory Dashboard", "sub": "Early intervention feed" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" }
+      ]
+    }
+  },
+  {
+    "id": "semiconductor-wafer-defect",
+    "slug": "semiconductor-wafer-defect-classifier",
+    "title": "Semiconductor Wafer Defect Classifier",
+    "category": "Data Analytics",
+    "summary": "Silicon wafer fabrication spatial defect pattern recognition using tree-based XGBoost models and interactive Streamlit defect maps.",
+    "problem": "High-volume semiconductor manufacturing yields depend on immediate localization of cluster, ring, and scratch defect geometries.",
+    "impact": "Built rapid defect classification dashboard inspired by semiconductor training at CeNSE, IISc Bangalore.",
+    "stack": ["Python", "XGBoost", "Streamlit", "NumPy", "Matplotlib"],
+    "date": "Sep 2025",
+    "featured": false,
+    "order": 7,
+    "hidden": false,
+    "image": "",
+    "icon": "cpu",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Wafer Map Matrix", "sub": "Die bin coordinates" },
+        { "id": "2", "label": "Radon Transform Features", "sub": "Geometric signature" },
+        { "id": "3", "label": "XGBoost Classifier", "sub": "Scratch/Ring/Cluster" },
+        { "id": "4", "label": "Interactive Streamlit", "sub": "Visual inspection" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" },
+        { "from": "3", "to": "4" }
+      ]
+    }
+  },
+  {
+    "id": "ai-mini-projects-codsoft",
+    "slug": "five-ai-mini-projects-codsoft",
+    "title": "Five Foundational AI Systems (CodSoft)",
+    "category": "NLP and LLMs",
+    "summary": "Comprehensive suite of 5 algorithmic AI systems including Minimax Game Trees, Rule & Semantic Chatbot, Facial Landmark Detection, and Recommender Systems.",
+    "problem": "Mastering fundamental heuristic search, recommendation collaborative filtering, and facial landmark geometric pipelines.",
+    "impact": "Completed intensive 30-day accelerated engineering cycle with 100% project sign-off and unit test verification.",
+    "stack": ["Python", "OpenCV", "Minimax Algorithm", "scikit-learn", "NLTK"],
+    "date": "Jun 2025",
+    "featured": false,
+    "order": 8,
+    "hidden": false,
+    "image": "",
+    "icon": "terminal",
+    "links": {
+      "repo": "https://github.com/Shrikant-Kudale",
+      "demo": ""
+    },
+    "pipeline": {
+      "nodes": [
+        { "id": "1", "label": "Problem Formulation", "sub": "Adversarial & heuristic tasks" },
+        { "id": "2", "label": "Algorithmic Implementation", "sub": "Minimax + Haar cascade" },
+        { "id": "3", "label": "Benchmarking & Verification", "sub": "Latency & decision matrix" }
+      ],
+      "edges": [
+        { "from": "1", "to": "2" },
+        { "from": "2", "to": "3" }
+      ]
+    }
+  }
+]

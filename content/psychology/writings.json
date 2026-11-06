@@ -1,0 +1,38 @@
+{
+  "emptyStateMessage": "Essays and reflections in progress. Explorations on digital amnesia, memory scaffolds, and cognitive interaction will be published here.",
+  "upcomingPreviews": [
+    {
+      "id": "write-prev-1",
+      "title": "Digital Amnesia and the Plasticity of Remembering",
+      "topic": "Cognitive Science",
+      "estimatedDate": "Late 2026",
+      "summary": "Why the brain treats reliable external digital storage not as a competitor, but as an extension of working memory registers."
+    },
+    {
+      "id": "write-prev-2",
+      "title": "Algorithms as Transactive Memory Partners",
+      "topic": "Social & Cognitive Psychology",
+      "estimatedDate": "Late 2026",
+      "summary": "Wegner's transactive memory theory originally explained couples remembering together. What happens when our partner is a conversational LLM?"
+    },
+    {
+      "id": "write-prev-3",
+      "title": "Designing Human-in-the-Loop Systems for Reduced Cognitive Load",
+      "topic": "Cognitive Ergonomics & AI",
+      "estimatedDate": "Early 2027",
+      "summary": "Architectural guidelines for keeping users alert, accountable, and engaged without causing decision fatigue or automation bias."
+    }
+  ],
+  "posts": [
+    {
+      "id": "cognitive-offloading-essay",
+      "slug": "cognitive-offloading-in-the-age-of-llms",
+      "title": "When Machines Remember For Us: The Metacognition of Offloading",
+      "date": "28 Oct 2026",
+      "readTime": "7 min read",
+      "category": "Cognitive Science",
+      "summary": "An inquiry into how immediate access to machine knowledge alters the threshold of personal memorization and spatial awareness.",
+      "content": "### The Illusion of Omniscience\n\nWhen information is available at zero cognitive cost via conversational search, the subjective sensation of knowing expands. In cognitive psychology, this is termed the *Google Effect* or digital amnesia.\n\n### The Metacognitive Trade-off\n\nHuman working memory has an estimated capacity of four to seven chunks. By offloading rote retention to a machine, attentional resources are nominally freed for higher-order reasoning. Yet in our dissertation trials, we observed a subtle corollary:\n\n*When individuals do not engage in the effortful retrieval process, the synaptic consolidation pathways that bind spatial landmarks and conceptual models remain fragile.*\n\n### Designing for Cognitive Durability\n\nRather than uncritically replacing human memory, the next generation of artificial intelligence systems must be engineered with cognitive scaffolding: prompting active recall, asking clarifying questions, and leaving spatial mental maps intact."
+    }
+  ]
+}

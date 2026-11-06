@@ -1,0 +1,18 @@
+{
+  "slug": "cognitive-ergonomics",
+  "persona": "psychology",
+  "title": "Cognitive Ergonomics & Systems Design",
+  "subtitle": "How human mental models shape interface architecture and error resilience.",
+  "layout": "article",
+  "folio": "MEMORY / 09 / COGNITIVE ERGONOMICS",
+  "sections": [
+    {
+      "heading": "Principles of Attentional Allocation",
+      "body": "When designing interfaces for high-consequence environments, visual clutter is not merely an aesthetic annoyance—it directly degrades working memory bandwidth."
+    },
+    {
+      "heading": "Designing for Mistake Recovery",
+      "body": "Forgiving architectures assume human slips will occur, providing instant cognitive visibility, reversible actions, and calm feedback loops."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "github": {
+    "username": "Shrikant-Kudale",
+    "profileUrl": "https://github.com/Shrikant-Kudale",
+    "isSample": true,
+    "totalContributions": 512,
+    "longestStreak": 38,
+    "currentStreak": 14,
+    "lastUpdated": "2026-11-01",
+    "pinnedRepos": [
+      {
+        "name": "Neuro-AI",
+        "description": "Transformer-based Phase-Amplitude Coupling and multimodal neural anomaly biomarker pipeline.",
+        "language": "Python",
+        "stars": 19,
+        "forks": 4,
+        "url": "https://github.com/Shrikant-Kudale/Neuro-AI"
+      },
+      {
+        "name": "Blind-Assist-Companion",
+        "description": "Real-time edge obstacle detection on Raspberry Pi Zero 2 W with YOLOv8 & ToF sensor fusion.",
+        "language": "Python",
+        "stars": 27,
+        "forks": 6,
+        "url": "https://github.com/Shrikant-Kudale"
+      },
+      {
+        "name": "Multi-Agent-Hospital-Triage",
+        "description": "Autonomous stateful healthcare appointment triage using LangGraph and Gemini function calling.",
+        "language": "Python",
+        "stars": 14,
+        "forks": 3,
+        "url": "https://github.com/Shrikant-Kudale"
+      },
+      {
+        "name": "Wafer-Defect-Classifier",
+        "description": "Radon transform spatial feature engineering with XGBoost classifier for silicon manufacturing.",
+        "language": "Python",
+        "stars": 11,
+        "forks": 2,
+        "url": "https://github.com/Shrikant-Kudale"
+      }
+    ]
+  },
+  "leetcode": {
+    "username": "Shrikant_Kudale",
+    "profileUrl": "https://leetcode.com/u/Shrikant_Kudale/",
+    "isSample": true,
+    "totalSolved": 164,
+    "totalQuestions": 3300,
+    "ranking": "Top 18.4%",
+    "acceptanceRate": "68.2%",
+    "categories": {
+      "easy": { "solved": 82, "total": 850 },
+      "medium": { "solved": 68, "total": 1750 },
+      "hard": { "solved": 14, "total": 700 }
+    },
+    "topicStrengths": [
+      { "topic": "Arrays & Hashing", "percent": 88 },
+      { "topic": "Binary Search & Trees", "percent": 76 },
+      { "topic": "Dynamic Programming", "percent": 62 },
+      { "topic": "Graph Traversal & BFS/DFS", "percent": 70 }
+    ]
+  }
+}

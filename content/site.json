@@ -1,0 +1,135 @@
+{
+  "siteName": "Shrikant Subhash Kudale",
+  "domain": "shrikantkudale.is-a.dev",
+  "imageRatio": 1.3333333333,
+  "imageRatioString": "4:3",
+  "featureFlags": {
+    "soundEnabled": true,
+    "assistantEnabled": true,
+    "wellnessLabEnabled": true,
+    "conceptUniverseEnabled": true,
+    "jdMatcherEnabled": true
+  },
+  "nav": {
+    "tech": [
+      { "label": "Home", "path": "/tech", "folio": "SIGNAL / 01 / HOME" },
+      { "label": "About & Stack", "path": "/tech/about", "folio": "SIGNAL / 02 / ABOUT AND STACK" },
+      { "label": "Projects", "path": "/tech/projects", "folio": "SIGNAL / 03 / PROJECTS" },
+      { "label": "Coding", "path": "/tech/coding", "folio": "SIGNAL / 04 / CODING" },
+      { "label": "Experience", "path": "/tech/experience", "folio": "SIGNAL / 05 / EXPERIENCE" },
+      { "label": "Hackathons", "path": "/tech/hackathons", "folio": "SIGNAL / 06 / HACKATHONS" },
+      { "label": "Notes", "path": "/tech/blog", "folio": "SIGNAL / 07 / NOTES" },
+      { "label": "JD Match", "path": "/tech/jd-match", "folio": "SIGNAL / 08 / JD MATCH" }
+    ],
+    "psychology": [
+      { "label": "Home", "path": "/psychology", "folio": "MEMORY / 01 / HOME" },
+      { "label": "About", "path": "/psychology/about", "folio": "MEMORY / 02 / ABOUT" },
+      { "label": "Dissertation", "path": "/psychology/dissertation", "folio": "MEMORY / 03 / DISSERTATION" },
+      { "label": "Methods", "path": "/psychology/methods", "folio": "MEMORY / 04 / METHODS" },
+      { "label": "Fieldwork", "path": "/psychology/fieldwork", "folio": "MEMORY / 05 / FIELDWORK" },
+      { "label": "Wellness Lab", "path": "/psychology/wellness", "folio": "MEMORY / 06 / WELLNESS LAB" },
+      { "label": "Writings", "path": "/psychology/writings", "folio": "MEMORY / 07 / WRITINGS" },
+      { "label": "Concept Universe", "path": "/psychology/concepts", "folio": "MEMORY / 08 / CONCEPT UNIVERSE" }
+    ]
+  },
+  "pagePairs": {
+    "/tech": "/psychology",
+    "/psychology": "/tech",
+    "/tech/about": "/psychology/about",
+    "/psychology/about": "/tech/about",
+    "/tech/projects": "/psychology/dissertation",
+    "/psychology/dissertation": "/tech/projects",
+    "/tech/coding": "/psychology/methods",
+    "/psychology/methods": "/tech/coding",
+    "/tech/experience": "/psychology/fieldwork",
+    "/psychology/fieldwork": "/tech/experience",
+    "/tech/hackathons": "/psychology/wellness",
+    "/psychology/wellness": "/tech/hackathons",
+    "/tech/blog": "/psychology/writings",
+    "/psychology/writings": "/tech/blog",
+    "/tech/jd-match": "/psychology",
+    "/psychology/concepts": "/tech/about"
+  },
+  "bridgeSentences": {
+    "/tech": {
+      "sentence": "The same curiosity that builds vision systems also asks how people remember. Read the other half.",
+      "target": "/psychology",
+      "targetLabel": "Memory & Cognitive Science"
+    },
+    "/psychology": {
+      "sentence": "The questions about memory began with machines I was building. See the engineering side.",
+      "target": "/tech",
+      "targetLabel": "AI & Engineering"
+    },
+    "/tech/about": {
+      "sentence": "Skills and degrees are one way to read a person. The way I think about minds is the other.",
+      "target": "/psychology/about",
+      "targetLabel": "Academic Credentials & Methods"
+    },
+    "/psychology/about": {
+      "sentence": "This is the training behind the research. The engineering that grew from it is next.",
+      "target": "/tech/about",
+      "targetLabel": "Technical Stack & Training"
+    },
+    "/tech/projects": {
+      "sentence": "Every system here assumes a user who remembers and pays attention. My dissertation tested what happens when that assumption fails.",
+      "target": "/psychology/dissertation",
+      "targetLabel": "The Memory Dissertation"
+    },
+    "/psychology/dissertation": {
+      "sentence": "The memory questions in this study came from tools people lean on. See what I built.",
+      "target": "/tech/projects",
+      "targetLabel": "Applied Systems & Code"
+    },
+    "/tech/coding": {
+      "sentence": "Problems solved against a clock here. Measurement done carefully on the other side.",
+      "target": "/psychology/methods",
+      "targetLabel": "Psychometrics & Experiments"
+    },
+    "/psychology/methods": {
+      "sentence": "Careful measurement here. The code that runs the numbers is on the other side.",
+      "target": "/tech/coding",
+      "targetLabel": "Algorithms & Benchmarks"
+    },
+    "/tech/experience": {
+      "sentence": "Internships and research on this page. Workshops and field photographs on the next.",
+      "target": "/psychology/fieldwork",
+      "targetLabel": "Fieldwork & Visual Records"
+    },
+    "/psychology/fieldwork": {
+      "sentence": "Field notes here. The roles and research behind them are on the engineering side.",
+      "target": "/tech/experience",
+      "targetLabel": "Industry & Lab Experience"
+    },
+    "/tech/hackathons": {
+      "sentence": "Built under pressure here. Built for calm there.",
+      "target": "/psychology/wellness",
+      "targetLabel": "Perception & Wellness Lab"
+    },
+    "/psychology/wellness": {
+      "sentence": "Tools for calm here. See what the same hands build against a deadline.",
+      "target": "/tech/hackathons",
+      "targetLabel": "Hackathon Prototypes"
+    },
+    "/tech/blog": {
+      "sentence": "Technical notes here. Reflections on memory and machines there.",
+      "target": "/psychology/writings",
+      "targetLabel": "Cognitive Essays"
+    },
+    "/psychology/writings": {
+      "sentence": "Reflections here. The technical notes that sit beside them are next.",
+      "target": "/tech/blog",
+      "targetLabel": "Engineering Notes"
+    },
+    "/tech/jd-match": {
+      "sentence": "A scoring system for roles here. A different way of understanding people there.",
+      "target": "/psychology",
+      "targetLabel": "Cognitive Science Portal"
+    },
+    "/psychology/concepts": {
+      "sentence": "These concepts shaped how I read data and the people behind it. See that thinking applied.",
+      "target": "/tech/about",
+      "targetLabel": "Applied Intelligence Stack"
+    }
+  }
+}

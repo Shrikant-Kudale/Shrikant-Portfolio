@@ -1,0 +1,38 @@
+{
+  "emptyStateMessage": "First notes are on the way. Long-form technical logs on edge vision quantization and neural signal architectures will be published here.",
+  "upcomingPreviews": [
+    {
+      "id": "preview-1",
+      "title": "Quantising YOLOv8 for 15+ FPS on Raspberry Pi Zero 2 W",
+      "topic": "Edge AI & Hardware",
+      "estimatedDate": "Late 2026",
+      "summary": "Benchmarking INT8 post-training quantization, NCNN conversion, and memory management constraints on single-board edge ARM cores."
+    },
+    {
+      "id": "preview-2",
+      "title": "Phase-Amplitude Coupling Meets Self-Attention in Pre-Radiographic Biomarkers",
+      "topic": "Deep Learning & Neurocomputation",
+      "estimatedDate": "Late 2026",
+      "summary": "Bridging classical theta-gamma cross-frequency coupling with Transformer attention maps to localize sub-clinical neural anomalies."
+    },
+    {
+      "id": "preview-3",
+      "title": "Grounding Mask R-CNN Segmentation Masks in Natural Language Generation",
+      "topic": "Computer Vision & Multimodal",
+      "estimatedDate": "Early 2027",
+      "summary": "Unifying spatial instance segmentation contours with autoregressive caption decoding without losing fine-grained bounding geometry."
+    }
+  ],
+  "posts": [
+    {
+      "id": "quantization-notes",
+      "slug": "edge-vision-quantization-pi-zero",
+      "title": "Edge Vision Optimization: From PyTorch Weights to Pi Zero 2 W",
+      "date": "02 Nov 2026",
+      "readTime": "6 min read",
+      "category": "Edge AI",
+      "summary": "A practical investigation into running modern object detection on a 512MB RAM quad-core ARM processor under thermal constraints.",
+      "content": "### The Edge Constraint\n\nDeploying vision models to embedded hardware is fundamentally an exercise in memory bandwidth arbitration. While desktop GPUs boast hundreds of gigabytes per second of VRAM throughput, the Raspberry Pi Zero 2 W shares 512MB of LPDDR2 memory across CPU and GPU cores.\n\n### The Quantization Pipeline\n\n1. **Model Pruning**: Removing redundant convolutional channels before quantization.\n2. **Calibration Dataset**: Passing representative real-world frames through the network to establish dynamic activation ranges.\n3. **INT8 Weight Quantization**: Mapping FP32 float tensors to signed 8-bit integers using symmetric scaling.\n\n```python\n# Quantization calibration hook\nimport torch\nmodel = torch.load('yolov8n.pt')\nmodel.fuse()\n```\n\n### Thermal and Power Results\n\nWith NCNN runtime acceleration and CPU thread affinity pinned to 3 cores, the device sustained 14.2 FPS with an operating temperature stabilized at 58°C with passive aluminum heat-sinking."
+    }
+  ]
+}
